@@ -24,7 +24,7 @@ var data = [trace1];
 
 // Apply the group bar mode to the layout
 var layout = {
-  title: "Greek gods search results",
+  title: "Greek Gods Search Results",
   margin: {
     l: 100,
     r: 100,
