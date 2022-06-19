@@ -13,6 +13,8 @@ data = data.reverse();
 var trace1 = {
   x: data.map(row => row.greekSearchResults),
   y: data.map(row => row.greekName),
+  xaxis: {title:"Number of Searches"},
+  yaxis: {title:"Gods"},
   text: data.map(row => row.greekName),
   name: "Greek",
   type: "bar",
